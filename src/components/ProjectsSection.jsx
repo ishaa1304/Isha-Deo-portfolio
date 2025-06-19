@@ -20,16 +20,16 @@ const projects = [
     demoUrl: "#",
     githubUrl: "https://github.com/ishaa1304/Sleep-Tunes-",
   },
-//   {
-//     id: 3,
-//     title: "E-commerce Platform",
-//     description:
-//       "Full-featured e-commerce platform with user authentication and payment processing.",
-//     image: "/projects/project3.png",
-//     tags: ["React", "Node.js", "Stripe"],
-//     demoUrl: "#",
-//     githubUrl: "#",
-//   },
+   {
+     id: 3,
+    title: "Cloud Resume Challenge",
+    description:
+      "A full-stack cloud project hosting my resume as a static site on AWS S3 with a visitor counter backed by Lambda, API Gateway, and DynamoDB. CI/CD set up using GitHub Actions with CloudFront caching.",
+    image: "src/projects/cloud-resume.png", // make sure this image exists in your assets
+    tags: ["AWS", "React", "Lambda", "CI/CD"],
+    demoUrl: "https://dtngue79q3p8c.cloudfront.net",
+    githubUrl: "https://github.com/ishaa1304/Isha-Deo-portfolio",
+   },
 ];
 
 export const ProjectsSection = () => {
