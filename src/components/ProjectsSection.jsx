@@ -15,7 +15,7 @@ const projects = [
     title: "Sleep Tunes",
     description:
       "This project combines sleep stage analysis with AI-generated music to create a personalized and calming experience. Based on simulated physiological data, it predicts the user's sleep stage and generates sleep-stage-specific music using Meta’s MusicGen model.",
-    image: "src/projects/sleep.jpg",
+    image: "/projects/sleep.jpg",
     tags: ["Gradio", "Python", "TensorFlow/Keras"],
     demoUrl: "#",
     githubUrl: "https://github.com/ishaa1304/Sleep-Tunes-",
@@ -25,7 +25,7 @@ const projects = [
     title: "Cloud Resume Challenge",
     description:
       "A full-stack cloud project hosting my resume as a static site on AWS S3 with a visitor counter backed by Lambda, API Gateway, and DynamoDB. CI/CD set up using GitHub Actions with CloudFront caching.",
-    image: "src/projects/cloud-resume.png", // make sure this image exists in your assets
+    image: "/projects/project3.png", 
     tags: ["AWS", "React", "Lambda", "CI/CD"],
     demoUrl: "https://dtngue79q3p8c.cloudfront.net",
     githubUrl: "https://github.com/ishaa1304/Isha-Deo-portfolio",
