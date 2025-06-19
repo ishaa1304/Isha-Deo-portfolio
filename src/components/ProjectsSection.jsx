@@ -5,7 +5,7 @@ const projects = [
     id: 1,
     title: "Library Management System",
     description: "The Library Management System is a web application designed to facilitate the management of a library. It provides features for both library patrons and administrators to browse, borrow, and return books, as well as book inventory",
-    image: "src/projects/project1.png",
+    image: "public/projects/project1.png",
     tags: ["Flask", "CSS", "Javascript","SQL"],
     demoUrl: "https://library-management-system-lac-iota.vercel.app/",
     githubUrl: "https://github.com/ishaa1304/Library-Management-System",
